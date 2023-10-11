@@ -1,6 +1,7 @@
 clicks = 0;
 upgrade = 1;
-upgradePrice = 0;
+upgradePrice = 10;
+
 
 function Increment() {
   clicks += upgrade;
@@ -17,6 +18,7 @@ function UpgradeEnhanceClick() {
     }
     clicks -= upgradePrice;
     upgrade *= 2;
-    upgradePrice = upgradePrice * 2;
+    upgradePrice = upgradePrice * 10;
   }
 }
+  
